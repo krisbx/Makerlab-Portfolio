@@ -1,0 +1,77 @@
+/*
+Theme Name:     test
+Description:    test
+Author:         krisbx
+Template:       generatepress
+
+(optional values you can add: Theme URI, Author URI, Version, License, License URI, Tags, Text Domain)
+*/
+@import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chewy&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+@keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-5px); }
+}
+
+.grid-container {
+    margin: 0 auto;
+}
+
+a {
+    color: #0d2688 !important;
+}
+
+header {
+    background-color: #efe0ff !important;
+}
+
+body {
+    background: #f9fbff
+}
+
+.main-title a {
+    font-size: 35px;
+}
+
+.entry-title {
+    font-family: "Sour Gummy", sans-serif;
+    color: #540b71 !important;
+    font-weight: 500;
+    font-size: 40px;
+}
+
+h1 {
+    font-family: "Sour Gummy", sans-serif;
+    color: #540b71;
+}
+
+.entry-header {
+    background-color: white !important;
+}
+
+.page_item a {
+    font-family: "Chewy", system-ui;
+    font-size: 30px;
+    display: inline-block;
+    transition: font-size 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.page_item a:hover {
+    font-size: 35px;
+    animation: bounce 0.5s ease-in-out;
+}
+
+.main-navigation {
+    background: transparent;
+}
+
+.read-more {
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.read-more:hover {
+    color: #74147f !important;
+    text-decoration: underline;
+}
